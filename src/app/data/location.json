@@ -1,0 +1,938 @@
+[
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Sarita Vihar",
+    "localityId": "ZWL005764",
+    "latitude": 28.531759,
+    "longitude": 77.293973
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Faridabad Sector 41-50",
+    "localityId": "ZWL008752",
+    "latitude": 28.460895,
+    "longitude": 77.304764
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "New Friends Colony",
+    "localityId": "ZWL005996",
+    "latitude": 28.565268,
+    "longitude": 77.274971
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Sector 26 (Noida)",
+    "localityId": "ZWL005243",
+    "latitude": 28.574404,
+    "longitude": 77.334178
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "New Industrial Town",
+    "localityId": "ZWL009032",
+    "latitude": 28.375702,
+    "longitude": 77.299442
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Tilak Nagar",
+    "localityId": "ZWL005428",
+    "latitude": 28.641372,
+    "longitude": 77.094689
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Sector 10, Gurgaon",
+    "localityId": "ZWL001073",
+    "latitude": 28.436077,
+    "longitude": 76.996757
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Ashok Vihar, Delhi",
+    "localityId": "ZWL001319",
+    "latitude": 28.684453,
+    "longitude": 77.174418
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Kalkaji",
+    "localityId": "ZWL004800",
+    "latitude": 28.529029,
+    "longitude": 77.258939
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Sector 53",
+    "localityId": "ZWL003118",
+    "latitude": 28.442743,
+    "longitude": 77.104379
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Sector 49",
+    "localityId": "ZWL002091",
+    "latitude": 28.408012,
+    "longitude": 77.050064
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Vasundhara",
+    "localityId": "ZWL002662",
+    "latitude": 28.665225,
+    "longitude": 77.366782,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Rajinder Nagar",
+    "localityId": "ZWL001404",
+    "latitude": 28.640732,
+    "longitude": 77.1829
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Safdarjung Enclave",
+    "localityId": "ZWL008963",
+    "latitude": 28.562608,
+    "longitude": 77.191457
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Connaught Place",
+    "localityId": "ZWL006538",
+    "latitude": 28.63063,
+    "longitude": 77.22064
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Sector 66",
+    "localityId": "ZWL003075",
+    "latitude": 28.380856,
+    "longitude": 77.062751
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Sector 57",
+    "localityId": "ZWL003721",
+    "latitude": 28.4221,
+    "longitude": 77.08274
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Moti Bagh, Delhi",
+    "localityId": "ZWL006396",
+    "latitude": 28.575774,
+    "longitude": 77.180697
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Patel Nagar, Delhi",
+    "localityId": "ZWL004535",
+    "latitude": 28.652848,
+    "longitude": 77.167909
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Greater Noida",
+    "localityId": "ZWL008554",
+    "latitude": 28.456171,
+    "longitude": 77.521577
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Karkardooma, Delhi",
+    "localityId": "ZWL004533",
+    "latitude": 28.656829,
+    "longitude": 77.310553
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Tigaon",
+    "localityId": "ZWL002179",
+    "latitude": 28.41712,
+    "longitude": 77.412569
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Sector 50 (Noida)",
+    "localityId": "ZWL007487",
+    "latitude": 28.569103,
+    "longitude": 77.364876
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Vasant Kunj, Delhi",
+    "localityId": "ZWL007120",
+    "latitude": 28.524633,
+    "longitude": 77.151206
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Dwarka, Delhi",
+    "localityId": "ZWL007486",
+    "latitude": 28.594467,
+    "longitude": 77.047747
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Sector 15",
+    "localityId": "ZWL006287",
+    "latitude": 28.457927,
+    "longitude": 77.034816
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Mayur Vihar Phase III",
+    "localityId": "ZWL002146",
+    "latitude": 28.606,
+    "longitude": 77.323675
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Crossing Republik",
+    "localityId": "ZWL008405",
+    "latitude": 28.635043,
+    "longitude": 77.419056
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Sector 28",
+    "localityId": "ZWL004455",
+    "latitude": 28.473457,
+    "longitude": 77.087532
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Palam Vihar",
+    "localityId": "ZWL007233",
+    "latitude": 28.42843,
+    "longitude": 77.039487
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Sohna",
+    "localityId": "ZWL009049",
+    "latitude": 28.267863,
+    "longitude": 77.118262
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Sector 21 (Noida)",
+    "localityId": "ZWL008071",
+    "latitude": 28.589693,
+    "longitude": 77.33993
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Sector 2 (Noida)",
+    "localityId": "ZWL003930",
+    "latitude": 28.580112,
+    "longitude": 77.319761
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Sector 27",
+    "localityId": "ZWL007060",
+    "latitude": 28.430066,
+    "longitude": 77.088633
+  },
+  {
+    "cityName": "Delhi NCR",
+    "localityName": "Mewat",
+    "localityId": "ZWL008489",
+    "latitude": 28.269411,
+    "longitude": 77.094282
+  },
+
+  {
+    "cityName": "Mumbai",
+    "localityName": "Badlapur, Mumbai",
+    "localityId": "ZWL001274",
+    "latitude": 19.174156,
+    "longitude": 73.225767
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Ambernath",
+    "localityId": "ZWL007699",
+    "latitude": 19.199776,
+    "longitude": 73.181176
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Marine lines",
+    "localityId": "ZWL001764",
+    "latitude": 18.952178,
+    "longitude": 72.825198
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Mulund West",
+    "localityId": "ZWL002921",
+    "latitude": 19.170765,
+    "longitude": 72.942239
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Airoli",
+    "localityId": "ZWL001410",
+    "latitude": 19.170339,
+    "longitude": 72.995114
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Kharghar (Navi Mumbai)",
+    "localityId": "ZWL009757",
+    "latitude": 19.069735,
+    "longitude": 73.055883
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Ulhasnagar (Mumbai)",
+    "localityId": "ZWL002059",
+    "latitude": 19.224136,
+    "longitude": 73.16934
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Ghatkopar West, Mumbai",
+    "localityId": "ZWL001058",
+    "latitude": 19.09674,
+    "longitude": 72.904562
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Bandra West",
+    "localityId": "ZWL006995",
+    "latitude": 19.068857,
+    "longitude": 72.833
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Dadar West",
+    "localityId": "ZWL004692",
+    "latitude": 19.021199,
+    "longitude": 72.835378
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Andheri West",
+    "localityId": "ZWL007667",
+    "latitude": 19.137106,
+    "longitude": 72.834828
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Vile Parle West",
+    "localityId": "ZWL009338",
+    "latitude": 19.10956,
+    "longitude": 72.832194
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Byculla",
+    "localityId": "ZWL009167",
+    "latitude": 18.974283,
+    "longitude": 72.833712
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Vasai",
+    "localityId": "ZWL006032",
+    "latitude": 19.364358,
+    "longitude": 72.836612
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Kalyan,East (Mumbai)",
+    "localityId": "ZWL007397",
+    "latitude": 19.221503,
+    "longitude": 73.138111
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Ulwe, Mumbai",
+    "localityId": "ZWL009360",
+    "latitude": 18.974217,
+    "longitude": 73.024914
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Fort",
+    "localityId": "ZWL002205",
+    "latitude": 18.940613,
+    "longitude": 72.834235
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Andheri East",
+    "localityId": "ZWL008975",
+    "latitude": 19.108639,
+    "longitude": 72.874437
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Chembur",
+    "localityId": "ZWL009252",
+    "latitude": 19.04984,
+    "longitude": 72.907847,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Palghar, Mumbai",
+    "localityId": "ZWL002558",
+    "latitude": 19.700631,
+    "longitude": 72.763031,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Mumbra, Mumbai",
+    "localityId": "ZWL002742",
+    "latitude": 19.172636,
+    "longitude": 73.023715,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Mulund East",
+    "localityId": "ZWL004971",
+    "latitude": 19.154253,
+    "longitude": 72.962493,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Shirdhon, Mumbai",
+    "localityId": "ZWL008348",
+    "latitude": 19.195881,
+    "longitude": 73.128886
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Virar",
+    "localityId": "ZWL001344",
+    "latitude": 19.461784,
+    "longitude": 72.799199
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Tardeo",
+    "localityId": "ZWL007606",
+    "latitude": 18.961317,
+    "longitude": 72.805513
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Bandra East",
+    "localityId": "ZWL005697",
+    "latitude": 19.064138,
+    "longitude": 72.852737,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Thane West",
+    "localityId": "ZWL005442",
+    "latitude": 19.227309,
+    "longitude": 72.972736
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Kurla West",
+    "localityId": "ZWL004189",
+    "latitude": 19.079972,
+    "longitude": 72.881537
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Goregaon West",
+    "localityId": "ZWL005000",
+    "latitude": 19.162722,
+    "longitude": 72.84161
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Hiranandani Estate",
+    "localityId": "ZWL002056",
+    "latitude": 19.267411,
+    "longitude": 72.967074
+  },
+
+  {
+    "cityName": "Mumbai",
+    "localityName": "Hiranandani Gardens",
+    "localityId": "ZWL007223",
+    "latitude": 19.268349,
+    "longitude": 72.979647
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Kandivali East",
+    "localityId": "ZWL005517",
+    "latitude": 19.212386,
+    "longitude": 72.856073
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Kandivali West",
+    "localityId": "ZWL007522",
+    "latitude": 19.209407,
+    "longitude": 72.845905
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Powai",
+    "localityId": "ZWL002142",
+    "latitude": 19.123302,
+    "longitude": 72.915372
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Saki Naka",
+    "localityId": "ZWL004682",
+    "latitude": 19.116874,
+    "longitude": 72.88706
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Dahisar East",
+    "localityId": "ZWL006821",
+    "latitude": 19.235213,
+    "longitude": 72.848112
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Borivali East",
+    "localityId": "ZWL006295",
+    "latitude": 19.231799,
+    "longitude": 72.846621
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Bhayandar East",
+    "localityId": "ZWL005669",
+    "latitude": 19.300821,
+    "longitude": 72.855414
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Mira Road",
+    "localityId": "ZWL005663",
+    "latitude": 19.258112,
+    "longitude": 72.845303
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Kandivali",
+    "localityId": "ZWL008744",
+    "latitude": 19.203473,
+    "longitude": 72.842503
+  },
+  {
+    "cityName": "Mumbai",
+    "localityName": "Mira-Bhayandar",
+    "localityId": "ZWL009217",
+    "latitude": 19.305159,
+    "longitude": 72.849872
+  },
+  {
+    "cityName": "Chennai",
+    "localityName": "Poonamallee",
+    "localityId": "ZWL007176",
+    "latitude": 13.052763,
+    "longitude": 80.090763
+  },
+  {
+    "cityName": "Chennai",
+    "localityName": "Minjur, Chennai",
+    "localityId": "ZWL009897",
+    "latitude": 13.282298,
+    "longitude": 80.266616
+  },
+  {
+    "cityName": "Chennai",
+    "localityName": "Urapakkam",
+    "localityId": "ZWL004882",
+    "latitude": 12.878957,
+    "longitude": 80.070307
+  },
+  {
+    "cityName": "Chennai",
+    "localityName": "Velachery",
+    "localityId": "ZWL006156",
+    "latitude": 12.9893,
+    "longitude": 80.199988,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Chennai",
+    "localityName": "Navallur",
+    "localityId": "ZWL001141",
+    "latitude": 12.841923,
+    "longitude": 80.209025,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Chennai",
+    "localityName": "Vadapalani",
+    "localityId": "ZWL004431",
+    "latitude": 13.06516,
+    "longitude": 80.207917
+  },
+  {
+    "cityName": "Chennai",
+    "localityName": "T Nagar",
+    "localityId": "ZWL001516",
+    "latitude": 13.026256,
+    "longitude": 80.22812,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Hazratganj",
+    "localityId": "ZWL003425",
+    "latitude": 26.844819,
+    "longitude": 80.940833,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Aminabad",
+    "localityId": "ZWL006490",
+    "latitude": 26.85677,
+    "longitude": 80.925103,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Chowk",
+    "localityId": "ZWL009091",
+    "latitude": 26.873686,
+    "longitude": 80.894502,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Telibagh, Lucknow",
+    "localityId": "ZWL003030",
+    "latitude": 26.776664,
+    "longitude": 80.936755,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Husainganj",
+    "localityId": "ZWL004978",
+    "latitude": 26.83697,
+    "longitude": 80.92611,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Jankipuram",
+    "localityId": "ZWL009177",
+    "latitude": 26.926427,
+    "longitude": 80.936884,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Arjunganj",
+    "localityId": "ZWL004436",
+    "latitude": 26.794554,
+    "longitude": 80.999112,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Chinhat, Lucknow",
+    "localityId": "ZWL005470",
+    "latitude": 26.878323,
+    "longitude": 81.038299,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Mahanagar",
+    "localityId": "ZWL001500",
+    "latitude": 26.886387,
+    "longitude": 80.960641,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Ashiyana",
+    "localityId": "ZWL003371",
+    "latitude": 26.79051,
+    "longitude": 80.913855,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Indira Nagar, Lucknow",
+    "localityId": "ZWL003635",
+    "latitude": 26.883684,
+    "longitude": 80.99029,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Vasant Kunj, Lucknow",
+    "localityId": "ZWL003320",
+    "latitude": 26.877121,
+    "longitude": 80.878447,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Rajajipuram",
+    "localityId": "ZWL009682",
+    "latitude": 26.842055,
+    "longitude": 80.873868,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Gomti Nagar",
+    "localityId": "ZWL002273",
+    "latitude": 26.850582,
+    "longitude": 80.999875,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Alambagh",
+    "localityId": "ZWL002331",
+    "latitude": 26.810769,
+    "longitude": 80.904864,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Aliganj, Lucknow",
+    "localityId": "ZWL007731",
+    "latitude": 26.890082,
+    "longitude": 80.942007,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Lucknow",
+    "localityName": "Kalyanpur",
+    "localityId": "ZWL007011",
+    "latitude": 26.907206,
+    "longitude": 80.974143,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Kochi",
+    "localityName": "Eroor",
+    "localityId": "ZWL003768",
+    "latitude": 9.929826,
+    "longitude": 76.332369,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Kochi",
+    "localityName": "Kakkanad",
+    "localityId": "ZWL005555",
+    "latitude": 10.014153,
+    "longitude": 76.358626,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Kochi",
+    "localityName": "Nedumbassery,Kochi",
+    "localityId": "ZWL002986",
+    "latitude": 10.178008,
+    "longitude": 76.386636,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Kochi",
+    "localityName": "North Paravur, Kochi",
+    "localityId": "ZWL004273",
+    "latitude": 10.162441,
+    "longitude": 76.216317,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Kochi",
+    "localityName": "Aluva, Kochi",
+    "localityId": "ZWL005425",
+    "latitude": 10.106615,
+    "longitude": 76.348843,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Kochi",
+    "localityName": "Ambalamugal",
+    "localityId": "ZWL009421",
+    "latitude": 10.02394,
+    "longitude": 76.30465,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Kochi",
+    "localityName": "Panampilly Nagar",
+    "localityId": "ZWL009398",
+    "latitude": 9.960832,
+    "longitude": 76.296173,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Kochi",
+    "localityName": "Palarivattom",
+    "localityId": "ZWL009658",
+    "latitude": 9.982697,
+    "longitude": 76.311048,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Kochi",
+    "localityName": "Cheranallur",
+    "localityId": "ZWL007242",
+    "latitude": 10.046668,
+    "longitude": 76.279956,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Kochi",
+    "localityName": "Kothamangalam",
+    "localityId": "ZWL003328",
+    "latitude": 10.013055,
+    "longitude": 76.611926,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Jalandhar",
+    "localityName": "Model Town, Jalandhar",
+    "localityId": "ZWL005408",
+    "latitude": 31.299818,
+    "longitude": 75.582441,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Jalandhar",
+    "localityName": "Basti Nau, Jalandhar",
+    "localityId": "ZWL001624",
+    "latitude": 31.327456,
+    "longitude": 75.549901,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Jalandhar",
+    "localityName": "Rama Mandi, Jalandhar",
+    "localityId": "ZWL004713",
+    "latitude": 31.314281,
+    "longitude": 75.617635,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Jammu",
+    "localityName": "Greater Kailash, Jammu",
+    "localityId": "ZWL007457",
+    "latitude": 32.670712,
+    "longitude": 74.901243,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Jammu",
+    "localityName": "Barnai, Jammu",
+    "localityId": "ZWL005892",
+    "latitude": 32.755253,
+    "longitude": 74.825204,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Jammu",
+    "localityName": "Gandhi Nagar, Jammu",
+    "localityId": "ZWL008753",
+    "latitude": 32.704392,
+    "longitude": 74.86483,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Jammu",
+    "localityName": "OLD JAMMU, Jammu",
+    "localityId": "ZWL008047",
+    "latitude": 32.727614,
+    "longitude": 74.856395,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Jammu",
+    "localityName": "Channi Himmat, Jammu",
+    "localityId": "ZWL002687",
+    "latitude": 32.69074,
+    "longitude": 74.886902,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Raipur",
+    "localityName": "Shankar Nagar, Raipur",
+    "localityId": "ZWL003195",
+    "latitude": 21.251392,
+    "longitude": 81.66385,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Raipur",
+    "localityName": "Purena, Raipur",
+    "localityId": "ZWL009896",
+    "latitude": 21.235636,
+    "longitude": 81.69246,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Raipur",
+    "localityName": "Mowa, Raipur",
+    "localityId": "ZWL001038",
+    "latitude": 21.272467,
+    "longitude": 81.6711,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Raipur",
+    "localityName": "Mahaveer Nagar",
+    "localityId": "ZWL008872",
+    "latitude": 21.21073,
+    "longitude": 81.640523,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Raipur",
+    "localityName": "Samta Colony, Raipur",
+    "localityId": "ZWL004310",
+    "latitude": 21.243164,
+    "longitude": 81.621252,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Raipur",
+    "localityName": "Civil Lines, Raipur",
+    "localityId": "ZWL006651",
+    "latitude": 21.243402,
+    "longitude": 81.650848,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Raipur",
+    "localityName": "Devendra Nagar",
+    "localityId": "ZWL008695",
+    "latitude": 21.252033,
+    "longitude": 81.65007,
+    "device_type": "2 - Rain gauge system"
+  },
+  {
+    "cityName": "Raipur",
+    "localityName": "Moudhapara, Raipur",
+    "localityId": "ZWL008436",
+    "latitude": 21.256569,
+    "longitude": 81.627672,
+    "device_type": "2 - Rain gauge system"
+  }
+]
