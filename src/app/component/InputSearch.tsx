@@ -2,13 +2,10 @@
 import React, { ChangeEvent, useEffect, useState } from "react";
 import location from "@/app/data/location.json";
 import useFetch from "../hooks/useFetch";
-import { weatherInfoData ,currlocality } from "../store/weatherSlice";
+import { weatherInfoData, currlocality } from "../store/weatherSlice";
 import { useDispatch } from "react-redux";
 import type { AppDispatch } from "@/app/store/weatherStore";
 import Image from "next/image";
-
-// TypeScript type definitions
-
 
 type Locality = {
   cityName: string;
@@ -23,8 +20,7 @@ function InputSearch() {
   const [suggestions, setSuggestions] = useState<Locality[]>([]);
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
-
-  const {weatherData, loading, error, fetchWeatherData } = useFetch();
+  const { weatherData, loading, error, fetchWeatherData } = useFetch();
   const dispatch: AppDispatch = useDispatch();
 
   useEffect(() => {
@@ -32,7 +28,6 @@ function InputSearch() {
       dispatch(weatherInfoData(weatherData));
       dispatch(currlocality(inputValue));
     }
-
   }, [weatherData, dispatch]);
 
   useEffect(() => {
@@ -68,14 +63,14 @@ function InputSearch() {
   const handleBlur = () => {
     setTimeout(() => {
       setIsOpen(false);
-    }, 100);
+    }, 300);
   };
 
   return (
     <div className="">
       <div
         className={` relative w-full outline-none rounded-3xl px-4 py-3 md:w-1/2 mx-auto text-white ${
-          isOpen &&suggestions.length > 0
+          isOpen && suggestions.length > 0
             ? "border-transparent bg-[#444746] rounded-b-none"
             : "border-[1px] border-[#9aa0a6] bg-transparent hover:bg-[#424345] hover:border-transparent hover:shadow-md shadow-[#28292a]"
         }`}
@@ -90,37 +85,41 @@ function InputSearch() {
             onChange={onInputChange}
             onBlur={handleBlur}
           />
-          {inputValue!="" && <Image src={"/cross.svg"} height={20} width={20} alt="close" onClick={()=>setInputValue("")}/>}
-          
-      
+          {inputValue != "" && (
+            <Image
+              src={"/cross.svg"}
+              height={20}
+              width={20}
+              alt="close"
+              onClick={() => setInputValue("")}
+            />
+          )}
         </div>
-        
+
         {isOpen && suggestions.length > 0 && (
           <>
-          <ul className=" max-h-60 overflow-y-scroll border-t-2 absolute bg-[#444746] rounded-3xl rounded-t-none rounded-e-none left-0 right-0 mt-3 p-2 webkit">
-            {suggestions.map((item) => (
-              <li
-                key={item.localityId}
-                className="flex gap-3 p-2 cursor-pointer text-white hover:bg-[#6d6e6f]"
-                onClick={() => onLocationSelect(item)}
-              >
-                <img src="/search.svg" alt="search" height={20} width={20} />
-                {item.localityName}
-              </li>
-            ))}
-          </ul>
+            <ul className=" max-h-60 overflow-y-scroll border-t-2 absolute bg-[#444746] rounded-3xl rounded-t-none rounded-e-none left-0 right-0 mt-3 p-2 webkit">
+              {suggestions.map((item) => (
+                <li
+                  key={item.localityId}
+                  className="flex gap-3 p-2 cursor-pointer text-white hover:bg-[#6d6e6f]"
+                  onClick={() => onLocationSelect(item)}
+                >
+                  <img src="/search.svg" alt="search" height={20} width={20} />
+                  {item.localityName}
+                </li>
+              ))}
+            </ul>
           </>
         )}
       </div>
-      {error &&  <>
-      
-      <h1 className="font-extrabold text-teal-50 text-2xl text-center mt-10">
-        {error} try again
-      </h1>
-      </>}
-     
-    
-  
+      {error && (
+        <>
+          <h1 className="font-extrabold text-teal-50 text-2xl text-center mt-10">
+            {error} try again
+          </h1>
+        </>
+      )}
     </div>
   );
 }

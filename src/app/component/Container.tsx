@@ -5,12 +5,14 @@ import { RootState } from "../store/weatherStore";
 function Container({ children }: any) {
   const [bg, setBg] = useState<string>("");
   const [time, settime] = useState("night");
-  const mousmData = useSelector((state: RootState) => state.weather.localityWeatherData);
+  const mousmData = useSelector(
+    (state: RootState) => state.weather.localityWeatherData
+  );
 
   const isDaytime = () => {
     const now = new Date();
     const hours = now.getHours();
-    return hours >= 6 && hours < 18; 
+    return hours >= 6 && hours < 18;
   };
 
   useEffect(() => {
@@ -28,7 +30,6 @@ function Container({ children }: any) {
         setBg("bg-custom-night-clear");
       }
     }
-    
   }, [mousmData]);
 
   return (

@@ -9,8 +9,7 @@ function Cards({ img, name, percentage }: any) {
     if (name == "Rain Chances") {
       if (percentage?.rain_accumulation >= 1.8) {
         settext("Raining");
-      }
-      else if (percentage?.rain_accumulation >= 1) {
+      } else if (percentage?.rain_accumulation >= 1) {
         settext("High chance of rain");
       } else if (percentage?.rain_accumulation >= 0.5) {
         settext("Moderate chance of rain");
@@ -24,14 +23,12 @@ function Cards({ img, name, percentage }: any) {
     <div className="bg-custom-day-cloudy  rounded-lg p-4 shadow-md shadow-gray-800">
       <div className="flex items-center gap-4">
         <div className="w-12 h-12  md:w-16 md:h-16">
-
-        <Image
-          src={`/weather/${img}.png`}
-          height={100}
-          width={100}
-          alt="weather"
-         
-        />
+          <Image
+            src={`/weather/${img}.png`}
+            height={100}
+            width={100}
+            alt="weather"
+          />
         </div>
 
         <div>

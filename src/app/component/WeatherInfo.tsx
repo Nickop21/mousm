@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react";
 import Cards from "./Cards";
 import { useSelector } from "react-redux";
 import { RootState } from "../store/weatherStore";
-import { error } from "console";
 
 function WeatherInfo() {
   const [weatherImg, setWeatherImg] = useState<string>("/weather/day/humid");
@@ -27,52 +26,61 @@ function WeatherInfo() {
     settime(isDaytime() ? "day" : "night");
     const isDay = time === "day";
     const isNight = time === "night";
-    
-    if (mousmData?.temperature !== undefined && mousmData?.humidity !== undefined) {
+
+    if (
+      mousmData?.temperature !== undefined &&
+      mousmData?.humidity !== undefined
+    ) {
       if (isDay) {
         if (mousmData.temperature > 40) {
-          setWeatherImg(mousmData.humidity > 50 ? "/weather/day/humid" : "/weather/day/day");
-          setTempImg("/weather/temperature-hot")
+          setWeatherImg(
+            mousmData.humidity > 50 ? "/weather/day/humid" : "/weather/day/day"
+          );
+          setTempImg("/weather/temperature-hot");
         } else if (mousmData.temperature >= 20) {
           setWeatherImg("/weather/day/normal");
-          setTempImg("/weather/temperature-normal")
+          setTempImg("/weather/temperature-normal");
         } else {
           setWeatherImg("/weather/day/day-cold");
-          setTempImg("/weather/temperature-cold")
+          setTempImg("/weather/temperature-cold");
         }
-        
-        
       } else if (isNight) {
         if (mousmData.temperature > 15) {
-          setWeatherImg(mousmData.humidity > 50 ? "/weather/night/humid" : "/weather/night/night");
+          setWeatherImg(
+            mousmData.humidity > 50
+              ? "/weather/night/humid"
+              : "/weather/night/night"
+          );
         } else {
           setWeatherImg("/weather/night/night-cold");
         }
       }
     }
-    if (mousmData.temperature >=40) {
-      setTempImg("/weather/temperature-hot")
+    if (mousmData.temperature >= 40) {
+      setTempImg("/weather/temperature-hot");
     } else if (mousmData.temperature >= 20) {
-      setTempImg("/weather/temperature-normal")
+      setTempImg("/weather/temperature-normal");
     } else {
-      setTempImg("/weather/temperature-cold")
+      setTempImg("/weather/temperature-cold");
     }
-
   }, [mousmData]);
 
   function floorval(params: number) {
     return Math.floor(params);
   }
 
- 
-  if (mousmData.temperature==0 || mousmData.temperature==null) {
+  if (mousmData.temperature == null || mousmData.temperature == 0) {
+    const message =
+      mousmData.temperature == null
+        ? "No Data Available. Try a different locality."
+        : "Search Weather to see the details";
+
     return (
-      <h1 className="font-extrabold text-teal-50 text-4xl text-center mt-48">
-        Search Weather to see the details
+      <h1 className="font-extrabold text-teal-50 text-2xl text-center mt-48">
+        {message}
       </h1>
     );
   }
-  
 
   return (
     <div className="flex items-center flex-col gap-5  rounded-lg p-1  mt-20">
@@ -84,19 +92,14 @@ function WeatherInfo() {
           alt="weather"
         />
 
-        <Image
-          src={`${tempImg}.png`}
-          height={100}
-          width={100}
-          alt="weather"
-        />
+        <Image src={`${tempImg}.png`} height={100} width={100} alt="weather" />
 
         <h1 className="font-extrabold text-teal-50 text-2xl md:text-5xl">
           {floorval(mousmData?.temperature) + "°c" || "no data"}
         </h1>
       </div>
       <h1 className="font-extrabold text-teal-50 text-sm">
-        {mousmData.temperature!==0 && currlocality} 
+        {mousmData.temperature !== 0 && currlocality}
       </h1>
 
       <div className="flex gap-5">
